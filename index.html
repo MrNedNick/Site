@@ -177,54 +177,52 @@
       </table>
     </div>
   </section>
-  Ассортимент
 
-  Название
-  Алк.
-  Ккал
-  Объём
-  Стоимость
-
-  Классика
-  &lt; 1,2%
-  33
-  330 мл
-  120 Р.
-
-  Шабаш
-  &gt; 1,2%
-  45
-  330 мл
-  250 Р.
-
-  Вахтёр Новинка
-  &lt; 1%
-  35
-  0,5 л
-  150 Р.
-
-  Романтик Новинка
-  &lt; 0,5%
-  27
-  0,5 л
-  90 Р.
-
-
-
-  Заказать
-
-  Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При
-  заказе от 10 баррелей — скидка 10%.
-
-  Представьтесь:
-  Номер телефона:
-  Доп. номер:
-  Email:
-  Объём заказа:
-  От 5 до 10 баррелей в неделю
-  Доп. комментарий:
-  Я согласен получать квасную рассылку
-  Отправить заказ
+  <section class="order">
+    <div class="order__inner">
+      <h2 class="order__tittle">Заказать</h2>
+      <p class="order__text">
+        Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас.
+        При
+        заказе от 10 баррелей — скидка 10%.
+      </p>
+      <form class="order__form" action="#" method="POST">
+        <div class="order__form-item">
+          <label for="fullname">Представьтесь:</label>
+          <input type="text" name="fullname" id="fullname">
+        </div>
+        <div class="order__form-item">
+          <label for="phone">Номер телефона:</label>
+          <input type="text" name="phone" id="phone">
+        </div>
+        <div class="order__form-item">
+          <label for="phone-2">Доп. номер:</label>
+          <input type="text" name="phone-2" id="phone-2">
+        </div>
+        <div class="order__form-item">
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <div class="order__form-item">
+          <label for="value">Объём заказа:</label><br>
+          <select name="value" id="value">
+            <option value="1">От 5 до 10 баррелей в неделю</option>
+          </select>
+        </div>
+        <div class="order__form-item">
+          <label for="comment">Доп. комментарий:</label>
+          <textarea name="comment" id="comment"></textarea>
+        </div>
+        <div class="order__form-item">
+          <label>
+            <input type="checkbox" name="email" id="email">
+            Я согласен получать квасную рассылку
+          </label>
+        </div>
+        <input class="order__form-btn" type="submit" value="Отправить заказ">
+      </form>
+    </div>
+  </section>
 
 
 
