@@ -94,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .latest__tittle {
-    
     font-family: "Arial", sans-serif;
     font-size: 40px;
     font-weight: bold;
@@ -107,12 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .latest__box {
     display: flex;
+    justify-content: space-between;
 }
 
 .latest__item {
     margin-left: 33px;
     position: relative;
-    
 }
 
 .latest__item_tittle {
@@ -123,7 +122,6 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     text-transform: uppercase;
     margin-bottom: 30px;
-    
 }
 
 .latest__item_table {
@@ -138,8 +136,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 72px;
     height: 42px;
     padding-left: 12px;
-    
-    
 }
 
 .latest__item_text {
@@ -150,13 +146,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     line-height: 24px;
     width: 148px;
-    
 }
 
 .latest__item_description {
     font-family: "Arial", sans-serif;
     font-size: 16px;
-    
     line-height: 30px;
     color: black;
     width: 338px;
@@ -201,4 +195,44 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     background-color: #834700;
     border: 2px solid #834700;
+}
+
+/* advantages */
+
+.advantages {
+    height: 410px;
+    background-color: #ffcb78;
+}
+
+.advantages__items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.advantages__item {
+    height: 250px;
+    width: 210px;
+    margin-top: 75px;
+}
+
+.advantages__item_title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.advantages__item_text {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
 }
