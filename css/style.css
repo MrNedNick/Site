@@ -1,0 +1,89 @@
+body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before {
+    box-sizing: border-box;
+}
+
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container__wide {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+
+.header {
+    min-height: 550px;
+    padding-top: 60px;
+    background-image: url("../img/wheat-back.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 600px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header__nav_item {
+    text-decoration: none;
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.header__title {
+    font-family: "Arial", sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+}
