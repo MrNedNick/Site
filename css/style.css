@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .latest__box {
     display: flex;
-    margin-bottom: 110px;
+    margin-bottom: 109px;
 }
 
 .latest__item {
@@ -220,7 +220,6 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     width: 332px;
     margin-top: 73px;
-    
 }
 
 .latest__item_btn_about {
@@ -253,4 +252,91 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #834700;
     border: 2px solid #834700;
     margin-left: -18px;
+}
+
+/* Advantages */
+
+.advantages {
+    height: 410px;
+    background-color: #ffcb78;
+}
+
+.advantages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.advantages__item {
+    position: relative;
+    float: left;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.advantages__item:first-child {
+    border-left-color: transparent;
+}
+
+.advantages__item_left {
+    width: 307px;
+}
+
+.advantages__item_middle {
+    width: 400px;
+    padding-left: 92px;
+}
+
+.advantages__item_right {
+    width: 305px;
+    padding-left: 92px;
+}
+
+.advantages__item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    width: 200px;
+    height: 68px;
+    background-repeat: no-repeat;
+}
+
+.advantages__item_left::before {
+    background-image: url(../img/icon-brew.png);
+    
+}
+
+.advantages__item_middle::before {
+    background-image: url(../img/icon-matreshka.png);
+    background-position: 90px 0;
+    
+}
+
+.advantages__item_right::before {
+    background-image: url(../img/icon-thumbsup.png);
+    background-position: 90px 0;
+    
+}
+
+.advantages__title {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 105px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Arial", sans-serif;
+    color: black;
+}
+
+.advantages__item p {
+    margin: 0;
+    width: 210px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Arial", sans-serif;
+    color: black;
 }
