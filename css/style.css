@@ -1,0 +1,256 @@
+body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before {
+    box-sizing: border-box;
+}
+
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container__wide {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+
+.header {
+    min-height: 550px;
+    padding-top: 60px;
+    background-image: url("../img/wheat-back.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.header__top {
+    margin-bottom: 120px;
+}
+
+.header__logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+}
+
+.header__logo img {
+    width: 140px;
+    height: 76px;
+}
+
+.header__nav_menu {
+    height: 59px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    width: 600px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 0;
+    list-style: none;
+}
+
+.header__nav_menu li {
+    float: left;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.header__nav_menu li:last-child {
+    margin-right: 0;
+}
+
+.header__nav_item {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header__nav_item:hover {
+    text-decoration: underline;
+}
+
+.header__nav_item:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Latest */
+
+.latest {
+    background-color: white;
+}
+
+.latest__tittle {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 61px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+.latest__box {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.latest__item {
+    padding-left: 33px;
+    position: relative;
+    width: 400px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+.latest__item_left {
+    border-right: transparent;
+}
+
+.latest__item_tittle {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 61px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.latest__item_table {
+    position: absolute;
+    top: 85px;
+    right: 35px;
+    border-collapse: collapse;
+}
+
+.latest__item_table_data {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 41px;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 70px;
+    height: 38px;
+    padding-left: 10px;
+}
+
+.latest__item_table_data_left {
+    width: 79px;
+    height: 40px;
+}
+
+.latest__item_text {
+    position: absolute;
+    top: 163px;
+    right: 27px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404040;
+    width: 148px;
+}
+
+.latest__item_img {
+    margin-left: 11px;
+}
+
+.latest__item_description {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+    width: 338px;
+    height: 77px;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+.latest__item_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 332px;
+    margin-top: 73px;
+    
+}
+
+.latest__item_btn_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 147px;
+    height: 50px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #834700;
+    border: 2px solid #834700;
+}
+
+.latest__item_btn_buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 109px;
+    height: 50px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background-color: #834700;
+    border: 2px solid #834700;
+    margin-left: -18px;
+}
