@@ -305,19 +305,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .advantages__item_left::before {
     background-image: url(../img/icon-brew.png);
-    
 }
 
 .advantages__item_middle::before {
     background-image: url(../img/icon-matreshka.png);
     background-position: 90px 0;
-    
 }
 
 .advantages__item_right::before {
     background-image: url(../img/icon-thumbsup.png);
     background-position: 90px 0;
-    
 }
 
 .advantages__title {
@@ -345,6 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .history {
     background-color: white;
+    display: block;
 }
 
 .history__tittle {
@@ -367,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 59px;
 }
 
-.history__item_tittle{
+.history__item_tittle {
     font-family: "Arial", sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -378,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .history__item_source {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     font-family: "Arial", sans-serif;
     font-size: 16px;
@@ -392,14 +390,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #834700;
 }
 
-.history__item_defenition{
+.history__item_defenition {
     margin: 0;
     padding: 0;
 }
 
 .history__item_img {
     position: absolute;
-    top:60px;
+    top: 60px;
     right: 0;
     width: 200px;
     height: 101px;
@@ -417,6 +415,75 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Press */
 
-.press{
+.press {
+    min-height: 480px;
     background-color: #ede5d8;
+    display: block;
+    border-top: 1px solid transparent;
+    
+}
+
+.press__tittle {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 61px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 79px;
+}
+
+.press__blockquote {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+.press__blockquote_text::after {
+    content: "";
+    width: 41px;
+    height: 31px;
+    top: 6px;
+    left: -104px;
+    position: absolute;
+    background: url("../img/quotes.png") no-repeat;
+}
+
+.press__blockquote_text {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #404040;
+    width: 690px;
+    margin-top: 74px;
+}
+
+.press__blockquote_cite {
+    position: absolute;
+    right: 0;
+    top: 135px;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-style: inherit;
+}
+
+.press__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 168px;
+    height: 50px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #a5a097;
+    margin-top: 34px;
 }
