@@ -200,7 +200,7 @@
   </section>
 
   <section class="order">
-    <div class="order__inner">
+    <div class="container">
       <h2 class="order__tittle">Заказать</h2>
       <p class="order__text">
         Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас.
@@ -208,39 +208,39 @@
         заказе от 10 баррелей — скидка 10%.
       </p>
       <form class="order__form" action="#" method="POST">
-        <div class="order__form-item">
+        <div class="order__form_item">
           <label for="fullname">Представьтесь:</label>
           <input type="text" name="fullname" id="fullname">
         </div>
-        <div class="order__form-item">
+        <div class="order__form_item order__form_item_left">
           <label for="phone">Номер телефона:</label>
           <input type="text" name="phone" id="phone">
         </div>
-        <div class="order__form-item">
+        <div class="order__form_item order__form_item_right">
           <label for="phone-2">Доп. номер:</label>
           <input type="text" name="phone-2" id="phone-2">
         </div>
-        <div class="order__form-item">
+        <div class="order__form_item">
           <label for="email">Email:</label>
           <input type="text" name="email" id="email">
         </div>
-        <div class="order__form-item">
+        <div class="order__form_item">
           <label for="value">Объём заказа:</label><br>
-          <select name="value" id="value">
-            <option value="1">От 5 до 10 баррелей в неделю</option>
+          <select class="order__form_item_option" name="value" id="value">
+            <option  value="1">От 5 до 10 баррелей в неделю</option>
           </select>
         </div>
-        <div class="order__form-item">
+        <div class="order__form_item">
           <label for="comment">Доп. комментарий:</label>
           <textarea name="comment" id="comment"></textarea>
         </div>
-        <div class="order__form-item">
+        <div class="order__form_checkbox">
           <label>
             <input type="checkbox" name="email" id="email" checked>
             Я согласен получать квасную рассылку
           </label>
         </div>
-        <input class="order__form-btn" type="submit" value="Отправить заказ">
+        <input class="order__form_btn" type="submit" value="Отправить заказ">
       </form>
     </div>
   </section>
