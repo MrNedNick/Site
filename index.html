@@ -227,7 +227,7 @@
         <div class="order__form_item">
           <label for="value">Объём заказа:</label><br>
           <select class="order__form_item_option" name="value" id="value">
-            <option  value="1">От 5 до 10 баррелей в неделю</option>
+            <option value="1">От 5 до 10 баррелей в неделю</option>
           </select>
         </div>
         <div class="order__form_item">
@@ -246,34 +246,37 @@
   </section>
 
   <footer class="footer">
-    <div class="footer__inner">
-      <div class="footer__top">
-        <img src="img/logo.png" alt="logo" width="140" height="76">
-        <nav class="footer__nav">
-          <ul>
-            <li><a href="#">История</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Ассортимент</a></li>
-            <li><a href="#">Где купить</a></li>
-          </ul>
-        </nav>
+    <div class="container__wide">
+      <div class="footer__top clearfix">
+        <div class="footer__logo">
+          <img src="img/logo.png" alt="logo" width="140" height="76">
+        </div>
+
+        <ul class="footer__nav_menu ">
+          <li><a class="footer__nav_item" href="#">История</a></li>
+          <li><a class="footer__nav_item" href="#">Производство</a></li>
+          <li><a class="footer__nav_item" href="#">Ассортимент</a></li>
+          <li><a class="footer__nav_item" href="#">Где купить</a></li>
+        </ul>
+
       </div>
-      <div class="footer__bottom">
+      <div class="footer__bottom clearfix">
         <div class="footer__social">
-          <a class="social-btn" href="https://instagram.com/htmlacademy">Инстаграм</a>
-          <a class="social-btn" href="https://facebook.com/htmlacademy">Фейсбук</a>
-          <a class="social-btn" href="https://vk.com/htmlacademy">Вконтакте</a>
+          <a class="social__btn social__btn_in" href="https://instagram.com/htmlacademy">Инстаграм</a>
+          <a class="social__btn social__btn_fb" href="https://facebook.com/htmlacademy">Фейсбук</a>
+          <a class="social__btn social__btn_vk" href="https://vk.com/htmlacademy">Вконтакте</a>
         </div>
         <p class="footer__copyright">При перепечатке материалов ссылка на сайт обязательна!</p>
         <div class="footer__creater">
-          <img src="img/htmlacademy.png" alt="htmlacademy">
+          <div class="footer__creater_img">
+            <img src="img/htmlacademy.png" alt="htmlacademy">
+          </div>
           <b> Разработчик:</b>
-          <a href="#">HTML Academy</a>
+          <a class="footer__link" href="#">HTML Academy</a>
         </div>
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>

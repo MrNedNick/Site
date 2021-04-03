@@ -620,8 +620,7 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-.order__form_item_left, 
-.order__form_item_right {
+.order__form_item_left, .order__form_item_right {
     width: 290px;
 }
 
@@ -637,8 +636,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-
-
 .order__form input[type="text"], .order__form select, .order__form textarea {
     box-sizing: border-box;
     width: 100%;
@@ -650,13 +647,13 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #e5b66c;
 }
 
-.order__form select{
+.order__form select {
     font-family: "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    color:rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3);
     padding-left: 19px;
 }
 
@@ -674,10 +671,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .order__form_checkbox {
-    
     margin-bottom: 34px;
     margin-top: 26px;
-    
 }
 
 .order__form_checkbox input[type="checkbox"] {
@@ -686,10 +681,7 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: bottom;
     width: 36px;
     height: 36px;
-    
 }
-
- 
 
 .order__form_btn {
     display: flex;
@@ -705,4 +697,166 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     background-color: #834700;
     border: 2px solid #834700;
+}
+
+/* Footer */
+
+.footer {
+    min-height: 325px;
+    background-color: black;
+    border-top: 1px solid transparent;
+}
+
+.footer__top {
+    margin-top: 59px;
+}
+
+.footer__logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+    margin-left: 37px;
+    margin-top: 0px;
+}
+
+.footer__logo img {
+    width: 140px;
+    height: 76px;
+}
+
+.footer__nav_menu {
+    height: 59px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    width: 600px;
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 131px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__nav_menu li {
+    float: left;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.footer__nav_menu li:last-child {
+    margin-right: 0;
+}
+
+.footer__nav_item {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer__nav_item:hover {
+    text-decoration: underline;
+}
+
+.footer__nav_item:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer__bottom {
+    margin-top: 46px;
+}
+
+.footer__social {
+    float: left;
+    width: 220px;
+    font-size: 0;
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.social__btn {
+    display: inline-block;
+    width: 71px;
+    height: 70px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social__btn:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.social__btn:active {
+    border-color: #ffffff;
+    opacity: 0.1;
+}
+
+.social__btn_in {
+    background: url(../img/icon-insta.png) no-repeat center;
+}
+
+.social__btn_fb {
+    background: url(../img/icon-fb.png) no-repeat center;
+}
+
+.social__btn_vk {
+    background: url(../img/icon-vk.png) no-repeat center;
+}
+
+.footer__copyright {
+    width: 232px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 82px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #989898;
+}
+
+.footer__creater {
+    margin-top: 0px;
+    margin-left: 166px;
+    float: left;
+    display: block;
+}
+
+.footer__creater b {
+    float: left;
+    display: block;
+    
+    margin-top: 26px;
+    margin-left: 30px;
+
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer__creater_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 75px;
+    height: 70px;
+    background-color: #1b1b1b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__link {
+    display: block;
+    float: left;
+    margin-top: 26px;
+    margin-left: 3px;
+    color: #989898;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
 }
