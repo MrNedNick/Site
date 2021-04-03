@@ -340,3 +340,83 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Arial", sans-serif;
     color: black;
 }
+
+/* History */
+
+.history {
+    background-color: white;
+}
+
+.history__tittle {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 61px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 59px;
+}
+
+.history_dl {
+    margin-bottom: 80px;
+}
+
+.history__item {
+    position: relative;
+    margin-top: 59px;
+}
+
+.history__item_tittle{
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.history__item_source {
+    position: absolute;
+    top:0;
+    right: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #444;
+    text-transform: none;
+}
+
+.history__item_link {
+    color: #834700;
+}
+
+.history__item_defenition{
+    margin: 0;
+    padding: 0;
+}
+
+.history__item_img {
+    position: absolute;
+    top:60px;
+    right: 0;
+    width: 200px;
+    height: 101px;
+}
+
+.history__item_text {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #404040;
+    width: 488px;
+    margin-top: 20px;
+}
+
+/* Press */
+
+.press{
+    background-color: #ede5d8;
+}
